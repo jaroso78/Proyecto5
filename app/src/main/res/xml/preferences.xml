@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Layout ha mostrar con las opciones de las preferencias -->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Audio">
+            <CheckBoxPreference
+                android:key ="audio_activo"
+                android:title="Audio activo"
+                android:summary="Opción para activar el audio" />
+
+        </PreferenceCategory>
+
+    </PreferenceScreen>
